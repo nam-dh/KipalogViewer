@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Kipalog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item {% if type == "hot" %} active {% endif %}">
+                <a class="nav-link" href="/hot">Bài viết hay</a>
+            </li>
+            <li class="nav-item {% if type == "latest" %} active {% endif %}">
+                <a class="nav-link" href="/latest">Bài viết mới</a>
+            </li>
+            <li class="nav-item dropdown {% if type == "tag" %} active {% endif %}">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Tags {% if tag_name %} ({{ tag_name }}) {% endif %}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/tags/Swift">Swift</a>
+                    <a class="dropdown-item" href="/tags/iOS">iOS</a>
+                    <a class="dropdown-item" href="/tags/JavaScript">JavaScript</a>
+                    <a class="dropdown-item" href="/tags/Android">Android</a>
+                    <a class="dropdown-item" href="/tags/Blockchain">Blockchain</a>
+                    </div>
+            </li>
+        </ul>
+    </div>
+</nav>

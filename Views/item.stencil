@@ -1,0 +1,5 @@
+<a href="/post/{{ post.id }}" class="list-group-item list-group-item-action flex-column align-items-start">
+    <h5 class="mb-1">{{ post.title }}</h5>
+    <p class="mb-1">{{ post.summary }}</p>
+    <small>Continue Reading</small>
+</a>
