@@ -18,7 +18,10 @@ public class App {
     public func run() {
         setupRoutes()
 
-        Kitura.addHTTPServer(onPort: 8080, with: router)
+        // Resolve the port that we want the server to listen on.
+        let port: Int = ProcessInfo.processInfo.environment["PORT"]
+            .flatMap({ Int($0) }) ?? 8081
+        Kitura.addHTTPServer(onPort: port, with: router)
         Kitura.run()
     }
 
