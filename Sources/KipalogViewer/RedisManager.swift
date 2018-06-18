@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftRedis
+import LoggerAPI
 
 final class RedisManager {
     static let shared = RedisManager()
@@ -31,7 +32,7 @@ final class RedisManager {
             }
             self.redis.set(key, value: value, callback: { (result, redisError) in
                 if let error = redisError {
-                    print(error)
+                    Log.error(error.localizedDescription)
                 }
             })
         }
@@ -44,7 +45,7 @@ final class RedisManager {
             }
             self.redis.get(key, callback: { (result, redisError) in
                 if let error = redisError {
-                    print(error)
+                    Log.error(error.localizedDescription)
                 }
                 completion(result?.asString)
             })
@@ -54,13 +55,13 @@ final class RedisManager {
     private func connect(completion: @escaping (Bool) -> Void) {
         redis.connect(host: host, port: port) { (redisError) in
             if let error = redisError {
-                print(error)
+                Log.error(error.localizedDescription)
                 completion(false)
             } else {
                 redis.auth(password) { (redisError) in
                     if let error = redisError {
                         // No password set is also an error
-                        print(error.localizedDescription)
+                        Log.error(error.localizedDescription)
                     }
                     completion(true)
                 }

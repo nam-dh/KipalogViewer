@@ -21,7 +21,7 @@ let package = Package(
         ],
     targets: [
         .target(name: "KipalogViewer",
-                dependencies: ["Kitura" , "HeliumLogger", "KituraStencil", "KipalogAPI", "PerfectMarkdown", "SwiftRedis"],
+                dependencies: ["Kitura", "HeliumLogger", "KituraStencil", "KipalogAPI", "PerfectMarkdown", "SwiftRedis"],
                 path: "Sources")
     ]
 )

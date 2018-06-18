@@ -1,6 +1,5 @@
 import Kitura
 import HeliumLogger
-import LoggerAPI
 
 HeliumLogger.use()
 
