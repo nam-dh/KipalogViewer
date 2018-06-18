@@ -2,14 +2,15 @@
 <html lang="vi">
 
 <head>
-  <title>Kipalog Viewer</title>
+  <title>{{ title }}</title>
   {% include "head-end.stencil" %}
 </head>
 
 <body>
   {% include "body-header.stencil" %}
-  <div class="list-group">
-    {% for post in list %} {% include "item.stencil" %} {% endfor %}
+  <div class="container">
+    <h1> {{ title }} </h1><br><br>
+    {{ content }}
   </div>
 </body>
 

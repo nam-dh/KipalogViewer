@@ -13,13 +13,15 @@ let package = Package(
         .package(url: "https://github.com/IBM-Swift/Kitura-StencilTemplateEngine.git",
                  from: "1.10.0"),
         .package(url: "https://github.com/nam-dh/KipalogAPI.git",
-                 from: "1.0.0"),
+                 from: "1.0.1"),
         .package(url: "https://github.com/PerfectlySoft/Perfect-Markdown.git",
-                 from: "3.0.0")
+                 from: "3.0.0"),
+        .package(url: "https://github.com/IBM-Swift/Kitura-redis.git",
+                 from: "2.1.0"),
         ],
     targets: [
         .target(name: "KipalogViewer",
-                dependencies: ["Kitura" , "HeliumLogger", "KituraStencil", "KipalogAPI", "PerfectMarkdown"],
+                dependencies: ["Kitura" , "HeliumLogger", "KituraStencil", "KipalogAPI", "PerfectMarkdown", "SwiftRedis"],
                 path: "Sources")
     ]
 )

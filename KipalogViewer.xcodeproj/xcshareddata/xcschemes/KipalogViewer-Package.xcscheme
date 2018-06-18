@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "KituraContracts::KituraContracts"
-               BuildableName = "KituraContracts.framework"
-               BlueprintName = "KituraContracts"
-               ReferencedContainer = "container:KipalogViewer.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Stencil::Stencil"
-               BuildableName = "Stencil.framework"
-               BlueprintName = "Stencil"
+               BlueprintIdentifier = "PerfectMarkdown::PerfectMarkdown"
+               BuildableName = "PerfectMarkdown.framework"
+               BlueprintName = "PerfectMarkdown"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "KipalogViewer::KipalogViewer"
-               BuildableName = "KipalogViewer"
-               BlueprintName = "KipalogViewer"
+               BlueprintIdentifier = "KituraStencil::KituraStencil"
+               BuildableName = "KituraStencil.framework"
+               BlueprintName = "KituraStencil"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +56,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "LoggerAPI::LoggerAPI"
-               BuildableName = "LoggerAPI.framework"
-               BlueprintName = "LoggerAPI"
+               BlueprintIdentifier = "PerfectMarkdown::upskirt"
+               BuildableName = "upskirt.framework"
+               BlueprintName = "upskirt"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -84,9 +70,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "TypeDecoder::TypeDecoder"
-               BuildableName = "TypeDecoder.framework"
-               BlueprintName = "TypeDecoder"
+               BlueprintIdentifier = "Stencil::Stencil"
+               BuildableName = "Stencil.framework"
+               BlueprintName = "Stencil"
+               ReferencedContainer = "container:KipalogViewer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "HeliumLogger::HeliumLogger"
+               BuildableName = "HeliumLogger.framework"
+               BlueprintName = "HeliumLogger"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -126,51 +126,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "KituraStencil::KituraStencil"
-               BuildableName = "KituraStencil.framework"
-               BlueprintName = "KituraStencil"
-               ReferencedContainer = "container:KipalogViewer.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SSLService::SSLService"
-               BuildableName = "SSLService.framework"
-               BlueprintName = "SSLService"
-               ReferencedContainer = "container:KipalogViewer.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "HeliumLogger::HeliumLogger"
-               BuildableName = "HeliumLogger.framework"
-               BlueprintName = "HeliumLogger"
-               ReferencedContainer = "container:KipalogViewer.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Socket::Socket"
-               BuildableName = "Socket.framework"
-               BlueprintName = "Socket"
+               BlueprintIdentifier = "Kitura-net::CHTTPParser"
+               BuildableName = "CHTTPParser.framework"
+               BlueprintName = "CHTTPParser"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -196,6 +154,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Socket::Socket"
+               BuildableName = "Socket.framework"
+               BlueprintName = "Socket"
+               ReferencedContainer = "container:KipalogViewer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SwiftRedis::SwiftRedis"
+               BuildableName = "SwiftRedis.framework"
+               BlueprintName = "SwiftRedis"
+               ReferencedContainer = "container:KipalogViewer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "Kitura::Kitura"
                BuildableName = "Kitura.framework"
                BlueprintName = "Kitura"
@@ -210,9 +196,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PerfectMarkdown::PerfectMarkdown"
-               BuildableName = "PerfectMarkdown.framework"
-               BlueprintName = "PerfectMarkdown"
+               BlueprintIdentifier = "SSLService::SSLService"
+               BuildableName = "SSLService.framework"
+               BlueprintName = "SSLService"
+               ReferencedContainer = "container:KipalogViewer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LoggerAPI::LoggerAPI"
+               BuildableName = "LoggerAPI.framework"
+               BlueprintName = "LoggerAPI"
+               ReferencedContainer = "container:KipalogViewer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "KituraContracts::KituraContracts"
+               BuildableName = "KituraContracts.framework"
+               BlueprintName = "KituraContracts"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -238,9 +252,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Kitura-net::CHTTPParser"
-               BuildableName = "CHTTPParser.framework"
-               BlueprintName = "CHTTPParser"
+               BlueprintIdentifier = "KipalogViewer::KipalogViewer"
+               BuildableName = "KipalogViewer"
+               BlueprintName = "KipalogViewer"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -252,9 +266,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "PerfectMarkdown::upskirt"
-               BuildableName = "upskirt.framework"
-               BlueprintName = "upskirt"
+               BlueprintIdentifier = "TypeDecoder::TypeDecoder"
+               BuildableName = "TypeDecoder.framework"
+               BlueprintName = "TypeDecoder"
                ReferencedContainer = "container:KipalogViewer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -283,9 +297,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "KituraContracts::KituraContracts"
-            BuildableName = "KituraContracts.framework"
-            BlueprintName = "KituraContracts"
+            BlueprintIdentifier = "PerfectMarkdown::PerfectMarkdown"
+            BuildableName = "PerfectMarkdown.framework"
+            BlueprintName = "PerfectMarkdown"
             ReferencedContainer = "container:KipalogViewer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
